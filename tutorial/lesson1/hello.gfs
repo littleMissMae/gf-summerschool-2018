@@ -1,0 +1,6 @@
+import HelloEng.gf
+import HelloAfr.gf
+import HelloIta.gf
+import HelloFin.gf
+linearize Hello World
+parse -lang=HelloEng "hello mum" | linearize -lang=HelloIta
